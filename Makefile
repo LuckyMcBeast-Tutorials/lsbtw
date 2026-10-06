@@ -1,8 +1,8 @@
-sls: ls.o
-	gcc ls.o -Wall -Wextra -o sls
+lsbtw: ls.o
+	gcc ls.o -Wall -Wextra -o lsbtw
 
 ls.o: ls.c
 	gcc -Wall -Wextra -c ls.c
 
 clean:
-	rm *.o sls
+	rm *.o lsbtw
